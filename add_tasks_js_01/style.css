@@ -1,0 +1,39 @@
+.container {
+display: flex;
+flex-direction: column;
+height: 100%;
+border: 3px solid green;
+max-width: 1440px;
+min-width: 320px;
+min-height: 600px;
+}
+.add_tasks {
+   position: relative;
+   background-color: rgb(147, 195, 197);
+}
+.add_tasks__title {
+   position: relative;
+   color: rgb(29, 46, 126);
+   font-size: 24px;
+   display: border-box;
+   max-width: 1400px;
+   max-height: 100%;
+   text-align: center;
+}
+.add_tasks__content h5 {
+   color: rgb(29, 64, 216);
+   font-size: 20px;
+   text-transform: capitalize;
+   text-align: center;
+} 
+.add_tasks__content p {
+flex-direction:column
+max-width: 1400px;
+max-height: 100%;
+background: rgb(101, 195, 147);
+margin: 10px;
+padding: 20px;
+font-size: 20px;
+justify-content: center;
+text-align: justify;
+}
