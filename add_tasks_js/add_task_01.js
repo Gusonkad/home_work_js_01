@@ -1,5 +1,4 @@
-
-
+//Add task 01
 function isLeapYear(year) {
    return year % 4 === 0;
 }
